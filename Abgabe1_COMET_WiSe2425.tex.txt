@@ -80,7 +80,7 @@ Oder alternative und weniger schreibaufwendige Methode:
     \item .import bike.csv bike
     \item .schema
     \item .mode columns
-    \item select max(average\_temperature) from bike where \dq group\dq=70 and \\average\_temperature between 1 and 99;
+    \item select max(average\_temperature) from bike where \dq group\dq=70 and \\average\_temperature between -1 and 99;
 \end{itemize}
 Das Ergebnis des select-Befehls ist dann ${83}^\circ F$ und umgerechnet wieder ${28.33}^\circ C$.
 \subsection{GitHub}
