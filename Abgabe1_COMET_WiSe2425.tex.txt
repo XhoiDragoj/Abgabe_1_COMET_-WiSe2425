@@ -56,7 +56,7 @@ Der ZGS wird in vielen Bereichen der Statistik und der Wahrscheinlichkeitstheori
 \subsection{Datenverarbeitung}
 \begin{itemize}
     \item CSV-Datei herunterladen und in Excel öffnen
-    \item Wir finden eine nicht standardisierte Tabelle vor für alle Gruppen vor, die keine eigenen Spalten hat und wo die Attribute durh Kommata getrennt werden. Jeder Gruppe wurde ein Standort eines Fahrradverleihs zugeordnet. Es gibt insgesamt 100 Gruppen.
+    \item Wir finden eine nicht standardisierte Tabelle für alle Standorte von Fahrradverleihen vor. Aufgebaut ist die Tabelle ohne eigene Spalten. Sämtliche Attribute werden hier durch Kommata getrennt. Die Tabelle beinhaltet 100 Gruppen. Jeder dieser 100 Gruppen wurde genau ein Standort eines Fahrradverleihs zugeordnet. Zu diesen Verleihen finden sich in der Tabelle mehrere Messreihen inklusive beispielsweise der zugehörigen Messwerte für Temperaturen oder Ähnliches wieder.
     \item Unter \dq Daten\dq{} und dann \dq Text zu Spalten\dq{} stellt man nach Komma trennen ein.
     \item Dann \dq group\dq{} filtern und Gruppe 70 aussuchen.
     \item Befehl \dq MAX(J:J)\dq, um die höchste mittlere Temperatur zu finden: ${83}^\circ F$ und umgerechnet ${28.33}^\circ C$
