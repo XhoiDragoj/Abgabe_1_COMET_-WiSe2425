@@ -23,7 +23,7 @@ Der zentrale Grenzwertsatz (ZGS) ist ein fundamentales Resultat der Wahrscheinli
 
 \subsection{Aussage}
 Sei $ X_{1} ,X_{2},..., X_{n} $ eine Folge von $i.i.d.$ ZV mit dem Erwartungswert $\mu$  = $\mathbb{E}(X_{i})$ 
-und der Varianz $\sigma^2$ = Var($X_{i}$), wobei  0 < $\sigma^2 < \infty$ gelte. Dann konvergiert
+und der Varianz $\sigma^2$ = Var($X_{i}$), wobei  0 $< \sigma^2 <$ $\infty$ gelte. Dann konvergiert
 die standardisierte Summe $Z_{n}$  dieser ZV für $n \to  \infty$  in Verteilung gegen eine
 Standardnormalverteilung:\footnote[1]{Der zentrale Grenzwertsatz hat verschiedene Verallgemeinerungen. Eine davon ist der \textbf{Lindeberg-Feller-Zentrale-Grenzwertsatz} \citep[Seite 328]{klenke}, der schwächere Bedingungen an die Unabhängigkeit und die identische Verteilung der ZV stellt.}
 
